@@ -18,3 +18,6 @@ class Store:
         if not self._items:
             return 0
         return sum(v for _, v in self._items) / len(self._items)
+
+    def clear(self):
+        self._items = []
