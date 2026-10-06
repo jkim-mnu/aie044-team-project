@@ -12,7 +12,7 @@ class Store:
         return len(self._items)
 
     def elapsed_seconds(self, start, end):
-        return end - start
+        return (end - start) * 1000
 
     def average(self):
         if not self._items:
