@@ -5,3 +5,8 @@
 ## 실행
 
     py -3.13 check.py
+
+## 구성
+
+- myapp/store.py 측정값 보관
+- myapp/report.py 요약 출력
